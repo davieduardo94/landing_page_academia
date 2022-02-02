@@ -80,7 +80,7 @@ header{
 
 /* Centro - conteudo principal */
 main {
-    height: 93vh;
+    height: 85.6vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,4 +152,22 @@ main {
 
 .btns button:hover:before {
     width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 7vh;
+    background-color: black;
+    z-index: +1;
+}
+
+.foot-primary {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.foot-secondary {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-align: center;
 }
